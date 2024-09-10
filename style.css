@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: rgb(193, 160, 221);
+}
+.heading{
+    color: #6b29d3;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mainn{
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/12/Background-Flowers-Widescreen-Wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.personal{
+    color: #393cdd;
+    background-color: #b7e2ed;
+    text-align: center;
+    padding: 15px;
+    font-size: x-large;
+}
+
+.forpic{
+    color: #393cdd;
+}
+
+input[type="file"]{
+ font-size: 16px;
+ padding: 10px;
+ width: 250px;
+ background-color: #b7e2ed;
+ border-radius: 30px;
+ margin-top: 20px;
+}
+
+input[type="file"]::file.selector-button{
+    background-color: #b7e2ed;
+    cursor: pointer;
+    font-size: large;
+    color: #fff;
+    border-color: #393cdd;
+    border-radius: 10px;
+}
+
+form{
+    margin-bottom: 40px;
+}
+
+input,textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    background-color: #b7e2ed;
+    border-width: 3px;
+
+}
